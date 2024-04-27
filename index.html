@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarun's Garage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .main {
+            margin: 15px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer p {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Tarun's Garage</h1>
+    </div>
+    <div class="main">
+        <h2>2024 Car Models</h2>
+        <!-- Add your car models here -->
+        <p>Car Model 1: $Price</p>
+        <p>Car Model 2: $Price</p>
+        <h2>Request a Car Model</h2>
+        <form>
+            <label for="carModel">Car Model:</label><br>
+            <input type="text" id="carModel" name="carModel"><br>
+            <label for="rentOrSale">Rent or Sale:</label><br>
+            <select id="rentOrSale" name="rentOrSale">
+                <option value="rent">Rent</option>
+                <option value="sale">Sale</option>
+            </select><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="footer">
+        <p>Contact us at: email@example.com or call us at: 123-456-7890</p>
+        <p>Address: 123 Main St, Anytown, USA</p>
+        <p>&copy; 2024 Tarun's Garage</p>
+    </div>
+    <script>
+        // Add your JavaScript here
+    </script>
+</body>
+</html>
